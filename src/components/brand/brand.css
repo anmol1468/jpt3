@@ -1,0 +1,24 @@
+.brands {
+  display: flex;
+  justify-content: space-between;
+  max-width: 25rem;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.brands img {
+  width: auto;
+  height: 20px;
+  margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 550px) {
+  .brands {
+    flex-flow: row wrap;
+    padding: 1rem 3rem;
+  }
+
+  .brands img {
+    margin: 1rem;
+  }
+}
